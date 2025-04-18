@@ -389,3 +389,35 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 psql -U postgres < universe.sql
 git init
 git add .
+git commit
+git commit -m"Add the first commit"
+git remote -v
+git push origin main
+git remote remove origin
+git remote add origin https://github.com/Eden426/CelestialBodiesDB.git
+git push origin main
+git remote add origin https://github.com/Eden426/CelestialBodiesDB.gitgp
+git remote add origin https://github.com/Eden426/CelestialBodiesDB.git
+git push origin main
+git remote set-url origin git@github.com:Eden426/CelestialBodiesDB.git
+git push origin main
+git init
+git remote remove origin
+ls --color=auto ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "edennigatu65@gmail.com"
+eval "$(ssh-agent -s)"
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git remote set-url origin git@github.com:Eden426/CelestialBodiesDB.git
+git remote add origin git@github.com:Eden426/CelestialBodiesDB.git
+git remote -v
+git push -u origin main
+git fetch origin
+git pull origin main
+git config pull.rebase false
+git config pull.rebase true
+git config pull.ff only
+git config pull.rebase false
+git pull origin main
+git rebase origin/main
+git add .
